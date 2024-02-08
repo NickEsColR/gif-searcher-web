@@ -1,0 +1,139 @@
+/* Header */
+header {
+  background: #546785;
+  border-bottom: 0.5vh solid black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  z-index: 10;
+}
+
+header h2{
+  margin: 0;
+  padding: 0;
+  line-height: 10vh;
+}
+
+
+/* containers */
+.app{
+  width: 100vh;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10.5vh;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+/* Form */
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+form input[type="text"] {
+  padding: 10px 20px;
+  outline: none;
+  border: solid 1px #546785;
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+form input[type="submit"] {
+  background: url("/src/svg/search-alt.svg") no-repeat;
+  background-size: 20px;
+  background-position: center;
+  padding: 10px 20px;
+  outline: none;
+  border: solid 1px #546785;
+  border-radius: 5px;
+  width: 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  background-color: #546785;
+  margin-left: 10px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #3e4f63;
+}
+
+.error {
+  color: red;
+}
+
+/* Gifs container */
+.container-gifs {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  margin-bottom: 10vh;
+  justify-content: center;
+  padding: 0 5%;
+}
+
+.container-gifs div img {
+  border-radius: 18px;
+  box-shadow: rgba(90, 88, 88, 0.25) 0px 14px 28px, rgba(55, 78, 121, 0.486) 0px 10px 10px;
+
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Item */
+.gif-item{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.gif-item p{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background: #546785;
+  border-top: 2px solid black;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 10vh;
+}
+
+footer p{
+  margin-left: 10px;
+}

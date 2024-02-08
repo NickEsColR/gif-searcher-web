@@ -16,7 +16,7 @@ export const AddCategory = ({ setCategory }) => {
   };
 
   return (
-    <>
+    <div className="form-container">
       <form onSubmit={searchGif}>
         <input
           type="text"
@@ -24,8 +24,9 @@ export const AddCategory = ({ setCategory }) => {
           onChange={(e) => setInputValue(e.target.value)}
           value={inputValue}
         />
+        <input type="submit" value=""></input>
       </form>
       {hasError && <p className="error">El campo no puede estar vacio</p>}
-    </>
+    </div>
   );
 };

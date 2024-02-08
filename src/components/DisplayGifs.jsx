@@ -14,8 +14,8 @@ export const DisplayGifs = ({ category }) => {
 
   return (
     <div className="container-gifs">
-      {loading && <p>Loading...</p>}
-      {error && <p>Error</p>}
+      {loading && <p className="loading">Loading...</p>}
+      {error && <p className="error">Error</p>}
       {data !== null
         ? data.map((img) => (
             <ImageItem
