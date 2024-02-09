@@ -41,13 +41,26 @@ To run the project locally, follow these steps:
     npm install
     ```
 
-4. Start the development server:
+4. Install dotenv:
+
+   ```bash
+   npm install dotenv
+   ```
+
+5. create .env file in root directory and write
+
+   ```
+    VITE_GIPHY_KEY = "your giphy api key"
+    VITE_GIPHY_URL = "https://api.giphy.com/v1/gifs/search"
+   ```
+
+6. Start the development server:
 
     ```bash
     npm start
     ```
 
-5. Open your preferred web browser and navigate to `http://localhost:3000` to view the application.
+7. Open your preferred web browser and navigate to `http://localhost:3000` to view the application.
 
 ## ⚙Technologies
 
