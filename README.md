@@ -26,13 +26,13 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/NickEsColR/AppClima-API-JavaScript.git
+    git clone https://github.com/NickEsColR/gif-searcher-web.git
     ```
 
 2. Change into the project directory:
 
     ```bash
-    cd AppClima-API-JavaScript
+    cd gif-searcher-web
     ```
 
 3. Install dependencies:
